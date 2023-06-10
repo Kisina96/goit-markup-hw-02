@@ -17,13 +17,16 @@ body {
 }
 /* Голова */
 .logo {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   text-transform: uppercase;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  text-decoration: none;
+}
+.link {
   text-decoration: none;
 }
 .logo1 {
@@ -38,6 +41,12 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
+.links1:hover {
+  color: var(--primary-ocean-color);
+}
+.links:focus {
+  color: var(--primary-ocean-color);
+}
 
 .links2 {
   color: var(--primary-navy-color);
@@ -48,7 +57,12 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
-
+.links2:hover {
+  color: var(--primary-ocean-color);
+}
+.links2:focus {
+  color: var(--primary-ocean-color);
+}
 .links3 {
   color: var(--primary-navy-color);
   font-weight: 500;
@@ -57,6 +71,12 @@ body {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
+}
+.links3:hover {
+  color: var(--primary-ocean-color);
+}
+.links3:focus {
+  color: var(--primary-ocean-color);
 }
 
 .contacts1 {
