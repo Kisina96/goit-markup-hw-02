@@ -113,6 +113,9 @@ body {
   list-style: none;
   font-style: normal;
 }
+.net {
+  font-style: normal;
+}
 /* Главная страницв */
 .firstpage {
   background-color: var(--primary-navy-color);
@@ -131,15 +134,17 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   cursor: pointer;
+  color: var(--primary-white-color);
 }
 .order:hover {
-  color: #404bbf;
+  color: var(--primary-ocean-color);
 }
 .order:focus {
-  color: #404bbf;
+  color: var(--primary-ocean-color);
 }
+
 /* статьи */
 .strategy {
   font-family: "Roboto", sans-serif;
