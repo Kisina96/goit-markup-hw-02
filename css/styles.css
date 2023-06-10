@@ -30,8 +30,9 @@ body {
   text-decoration: none;
 }
 .logo1 {
-  color: var(--primary-navy-color);
+  color: var(--primary-cloud-color);
 }
+
 .links1 {
   color: var(--primary-navy-color);
   font-weight: 500;
@@ -109,7 +110,11 @@ body {
 .contacts2:focus {
   color: var(--primary-ocean-color);
 }
-.list {
+.list1 {
+  list-style: none;
+  font-style: normal;
+}
+.list2 {
   list-style: none;
   font-style: normal;
 }
@@ -401,6 +406,10 @@ body {
 .design:focus {
   color: var(--primary-white-color);
   background-color: var(--primary-ocean-color);
+}
+.list {
+  list-style: none;
+  text-decoration: none;
 }
 .markering {
   font-family: "Roboto", sans-serif;
