@@ -87,6 +87,12 @@ body {
   color: var(--primary-slate-color);
   text-decoration: none;
 }
+.contacts1:hover {
+  color: var(--primary-ocean-color);
+}
+.contacts1:focus {
+  color: var(--primary-ocean-color);
+}
 
 .contacts2 {
   font-family: "Roboto", sans-serif;
@@ -97,21 +103,15 @@ body {
   text-decoration: none;
 }
 
-.contacts1:hover {
-  color: #404bbf;
-}
-.contacts1:focus {
-  color: #404bbf;
-}
-
 .contacts2:hover {
-  color: #404bbf;
+  color: var(--primary-ocean-color);
 }
 .contacts2:focus {
-  color: #404bbf;
+  color: var(--primary-ocean-color);
 }
 .list {
   list-style: none;
+  font-style: normal;
 }
 /* Главная страницв */
 .firstpage {
