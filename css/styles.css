@@ -33,7 +33,7 @@ body {
   color: var(--primary-cloud-color);
 }
 
-.links1 {
+.links {
   color: var(--primary-navy-color);
   font-weight: 500;
   font-size: 16px;
@@ -42,45 +42,14 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
-.links1:hover {
+.links:hover {
   color: var(--primary-ocean-color);
 }
 .links:focus {
   color: var(--primary-ocean-color);
 }
 
-.links2 {
-  color: var(--primary-navy-color);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
-}
-.links2:hover {
-  color: var(--primary-ocean-color);
-}
-.links2:focus {
-  color: var(--primary-ocean-color);
-}
-.links3 {
-  color: var(--primary-navy-color);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
-}
-.links3:hover {
-  color: var(--primary-ocean-color);
-}
-.links3:focus {
-  color: var(--primary-ocean-color);
-}
-
-.contacts1 {
+.contacts {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -88,28 +57,13 @@ body {
   color: var(--primary-slate-color);
   text-decoration: none;
 }
-.contacts1:hover {
+.contacts:hover {
   color: var(--primary-ocean-color);
 }
-.contacts1:focus {
+.contacts:focus {
   color: var(--primary-ocean-color);
 }
 
-.contacts2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-  text-decoration: none;
-}
-
-.contacts2:hover {
-  color: var(--primary-ocean-color);
-}
-.contacts2:focus {
-  color: var(--primary-ocean-color);
-}
 .list1 {
   list-style: none;
   font-style: normal;
@@ -169,57 +123,6 @@ body {
   text-align: left;
 }
 
-.punctuality {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-color);
-}
-.delegence {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-color);
-}
-.technologies {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-color);
-}
-.text2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-  text-align: left;
-}
-.text3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-  text-align: left;
-}
-.text4 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-  text-align: left;
-}
 /* Чем занимаются */
 .what {
   font-family: "Roboto", sans-serif;
@@ -241,7 +144,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.mark {
+.people {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -251,7 +154,7 @@ body {
   color: var(--primary-navy-color);
   background-color: #ffffff;
 }
-.profession1 {
+.profession {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -261,66 +164,7 @@ body {
   color: var(--primary-slate-color);
   background-color: #ffffff;
 }
-.tom {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--primary-navy-color);
-  background-color: #ffffff;
-}
-.camila {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--primary-navy-color);
-  background-color: #ffffff;
-}
-.daniel {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--primary-navy-color);
-  background-color: #ffffff;
-}
-.profession2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--primary-slate-color);
-  background-color: #ffffff;
-}
-.profession3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--primary-slate-color);
-  background-color: #ffffff;
-}
-.profession4 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--primary-slate-color);
-  background-color: #ffffff;
-}
+
 /* Подвал */
 .basement {
   background-color: var(--primary-navy-color);
@@ -334,7 +178,7 @@ body {
   color: var(--primary-cloud-color);
 }
 /* Вторая страница */
-.all {
+.pressbutton {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -344,11 +188,11 @@ body {
   background-color: var(--primary-cloud-color);
   cursor: pointer;
 }
-.all:hover {
+.pressbutton:hover {
   color: var(--primary-white-color);
   background-color: var(--primary-ocean-color);
 }
-.all:focus {
+.pressbutton:focus {
   color: var(--primary-white-color);
   background-color: var(--primary-ocean-color);
 }
@@ -430,7 +274,7 @@ body {
   background-color: var(--primary-ocean-color);
 }
 
-.banking {
+.page {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -438,135 +282,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-navy-color);
 }
-.tab1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-}
-.cashless {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-color);
-}
-.meditation {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-color);
-}
-.taxi {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-color);
-}
-.screen {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-color);
-}
-.online {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-color);
-}
-.instagram {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-color);
-}
-.organic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-color);
-}
-.frech {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-navy-color);
-}
-.tab2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-}
-.tab3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-}
-.tab4 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-}
-.tab5 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-}
-.tab6 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-}
-.tab7 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-}
-.tab8 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-slate-color);
-}
-.tab9 {
+.tab {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
