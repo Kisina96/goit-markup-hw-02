@@ -256,11 +256,8 @@ body {
 }
 .list {
   list-style: none;
-  text-decoration: none;
 }
-.list1 {
-  list-style: none;
-}
+
 .markering {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
