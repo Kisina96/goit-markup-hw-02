@@ -291,7 +291,7 @@ body {
   color: var(--primary-slate-color);
 }
 .focus {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .addr {
   font-style: normal;
