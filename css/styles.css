@@ -131,8 +131,11 @@ body {
   text-transform: capitalize;
   text-transform: capitalize;
 }
-.foures {
+.fours {
   background-color: #f4f4fd;
+}
+.focus {
+  background-color: #ffffff;
 }
 .team {
   font-family: "Roboto", sans-serif;
@@ -290,18 +293,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-slate-color);
 }
-.focus {
-  background-color: #f4f4fd;
-}
+
 .addr {
   font-style: normal;
 }
 .blue {
   font-style: normal;
 }
-.hours {
-  background-color: #ffffff;
-}
+
 .spam {
   color: #f4f4fd;
 }
