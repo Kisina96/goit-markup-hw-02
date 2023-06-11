@@ -94,10 +94,10 @@ body {
   color: var(--primary-white-color);
 }
 .orders:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .orders:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* статьи */
@@ -294,5 +294,8 @@ body {
   background-color: #ffffff;
 }
 .addr {
+  font-style: normal;
+}
+.blue {
   font-style: normal;
 }
