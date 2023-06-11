@@ -29,7 +29,7 @@ body {
   text-decoration: none;
 }
 .logotope {
-  color: var(--primary-navy-color);
+  color: #2e2f42;
 }
 
 .onelinks {
@@ -94,10 +94,10 @@ body {
   color: var(--primary-white-color);
 }
 .orders:hover {
-  color: var(--primary-ocean-color);
+  color: #404bbf;
 }
 .orders:focus {
-  color: var(--primary-ocean-color);
+  color: #404bbf;
 }
 
 /* статьи */
@@ -132,7 +132,7 @@ body {
   text-transform: capitalize;
 }
 .foures {
-  background-color: var(--primary-cloud-color);
+  background-color: #f4f4fd;
 }
 .team {
   font-family: "Roboto", sans-serif;
@@ -141,6 +141,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: var(--primary-navy-color);
 }
 .people {
   font-family: "Roboto", sans-serif;
@@ -287,4 +289,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-slate-color);
+}
+.focus {
+  background-color: #ffffff;
+}
+.addr {
+  font-style: normal;
 }
