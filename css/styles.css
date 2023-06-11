@@ -29,11 +29,11 @@ body {
 .link {
   text-decoration: none;
 }
-.logo1 {
-  color: var(--primary-cloud-color);
+.logotope {
+  color: var(--primary-navy-color);
 }
 
-.links {
+.onelinks {
   color: var(--primary-navy-color);
   font-weight: 500;
   font-size: 16px;
@@ -42,10 +42,10 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
-.links:hover {
+.onelinks:hover {
   color: var(--primary-ocean-color);
 }
-.links:focus {
+.onelinks:focus {
   color: var(--primary-ocean-color);
 }
 
@@ -64,14 +64,11 @@ body {
   color: var(--primary-ocean-color);
 }
 
-.list1 {
+.list {
   list-style: none;
   font-style: normal;
 }
-.list2 {
-  list-style: none;
-  font-style: normal;
-}
+
 .net {
   font-style: normal;
 }
