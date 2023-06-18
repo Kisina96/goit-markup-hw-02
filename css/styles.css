@@ -9,6 +9,18 @@
   --primary-text: "Roboto", sans-serif;
   --secondary-text: "Raleway", sans-serif;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -24,6 +36,9 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: inline-block;
 }
 .link {
   text-decoration: none;
@@ -40,6 +55,14 @@ body {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
+
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .onelinks:hover {
   color: var(--primary-ocean-color);
@@ -303,4 +326,37 @@ body {
 
 .spam {
   color: #f4f4fd;
+}
+
+.header-nav {
+  width: 1440px;
+  display: flex;
+  height: 72px;
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.main-title {
+  width: 1440px;
+  height: 600px;
+  padding-left: 0px;
+  padding-top: 72px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-block {
+  width: 1128px;
+}
+
+.main-what {
+}
+
+.main-fours {
+}
+
+.footer-increase {
+}
+.header-link {
+  gap: 40px;
 }
